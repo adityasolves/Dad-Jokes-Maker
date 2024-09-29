@@ -1,0 +1,64 @@
+body {
+  background: linear-gradient(135deg, #6DD5FA, #2980B9);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.bee-joke-container {
+  text-align: center;
+  background: #fff;
+  padding: 2.5rem 2rem;
+  border-radius: 15px;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  transition: all 0.3s ease;
+}
+.bee-joke-container:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.bee-joke-title {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+}
+
+.bee-joke-display {
+  font-size: 1.2rem;
+  color: #34495e;
+  background: #ecf0f1;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  min-height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.3s ease;
+}
+.bee-joke-display.bee-joke-animate {
+  background: #d1e8e4;
+}
+
+.bee-joke-button {
+  background: #2980b9;
+  color: white;
+  font-size: 1rem;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease;
+}
+.bee-joke-button:hover {
+  background: #3498db;
+}
+.bee-joke-button:active {
+  transform: scale(0.98);
+}/*# sourceMappingURL=style.css.map */
